@@ -1,0 +1,4 @@
+.items a:hover{
+  color: var(--textPrimary);
+  cursor: pointer;
+}

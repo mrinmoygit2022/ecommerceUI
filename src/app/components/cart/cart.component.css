@@ -1,0 +1,61 @@
+.card{
+  height: 70vh;
+  padding: 25px;
+  margin: 25px;
+  background-color: var(--bgLight);
+}
+.card .hr-border{
+  border-bottom: 2px solid var(--bgWarning);
+}
+.center{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  position: absolute;
+}
+
+.center img{
+  color: inherit;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  margin: 20px 0;
+}
+
+.card-table{
+  display: flex;
+  min-width: none;
+  position: relative;
+  word-wrap: break-word;
+  background-color: #FFF;
+  border: 1px solid #DDD;
+  border-radius: .25rem;
+  flex-direction: column;
+}
+
+.center .btn{
+  margin-top: 25px;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px 70px;
+  border-radius: 3px;
+}
+
+.card-table .card-product .table th{
+  border-bottom: 1px solid #DDD;
+  background-color: var(--bgLight);
+}
+
+.table tbody td:nth-child(1){
+  width: 6%;
+}
+
+.table tbody td{
+  width: 12%;
+}
+
+.table tbody td:nth-child(4){
+  width: 20%;
+}
+

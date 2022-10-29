@@ -1,1 +1,102 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root{
+  --bgLight: #FFF8DC;
+  --bgDark: #000000;
+  --textPrimary: #0080FF;
+  --bgDanger: #ff0000;
+  --bgWarning: #FFEB3B;
+}
+/* Font CSS */
+  .font-12{
+    font-size: 12px;
+  }
+  .font-14{
+    font-size: 14px;
+  }
+  .font-16{
+    font-size: 16px;
+  }
+  .font-18{
+    font-size: 18px;
+  }
+  .font-20{
+    font-size: 20px;
+  }
+  .font-24{
+    font-size: 24px;
+  }
+  .font-28{
+    font-size: 28px;
+  }
+  .font-30{
+    font-size: 30px;
+  }
+
+/* Font CSS END */
+/* Border CSS */
+.border-tb-left-radious{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.border-tb-right-radious{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+/* Border CSS END */
+
+.cart-top{
+  display: flex;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: var(--bgLight);
+  background-clip: border-box;
+  position: relative;
+  flex-direction: column;
+  border: 1px solid var(--bgDark);
+  border-radius: .25rem;
+  /* width: 200px;
+  height: 200px;
+  border: 1px solid; */
+}
+
+.p-7{
+  padding: 7px;
+}
+
+.items{
+  margin: 0px 15px;
+}
+
+.items img{
+  width: 65px;
+}
+
+.items a:hover{
+  color: var(--textPrimary);
+}
+
+.text-ellipsis{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100ch;
+}
+.card{
+  padding: 20px;
+  margin: 47px;
+}
+.card img{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+.card img:hover{
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
+
+
